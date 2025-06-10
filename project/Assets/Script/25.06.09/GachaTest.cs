@@ -51,7 +51,7 @@ public class GachaTest : MonoBehaviour
 
         drawButtonClickCount++; // 버튼 누른 횟수 증가
 
-        bool forcePityThisTime = (drawButtonClickCount >= 100); // 100번째 클릭에 천장 강제 발동
+        bool forcePityThisTime = (drawButtonClickCount >= 10); // 10번째 클릭에 천장 강제 발동
         if (forcePityThisTime) drawButtonClickCount = 0;
 
         string result = "";
