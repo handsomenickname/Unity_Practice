@@ -35,7 +35,7 @@ public class GachaTest : MonoBehaviour
 
     [Header("천장 시스템")]
     private int drawsSinceLastSSSSR = 0;
-    private const int PITY_THRESHOLD = 50;
+    private const int PITY_THRESHOLD = 100;
 
     private int drawButtonClickCount = 0;
 
